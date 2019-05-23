@@ -1,0 +1,13 @@
+{
+    "name": "ljoboy/occulus",
+    "description": "Occulus website",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Yombo",
+            "email": "jonathanyombo@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
