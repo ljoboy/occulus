@@ -7,7 +7,7 @@
     <meta name="author" content="Lijerbul LJOBOY"/>
     <link rel="shortcut icon" href="http://localhost/occulus/favicon.png" type="'image/x-png'">
 
-    <title>ESIS - ECOLO</title>
+    <title>OCCULUS - APP</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="http://localhost/occulus/assets/css/font-awesome.min.css">
@@ -17,7 +17,74 @@
 
     <!-- Template styles -->
     <style rel="stylesheet">
-        html, body, .view {height: 100%;}  .navbar {background-color: transparent;}  .scrolling-navbar {-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;transition: background .5s ease-in-out, padding .5s ease-in-out;}  .top-nav-collapse {background-color: #0A6A60;}  footer.page-footer {background-color: #2F968B;margin-top: 0;}  @media only screen and (max-width: 768px) {  .navbar {background-color: #0A6A60;}  }  .carousel, .carousel-item, .carousel .active {height: 100%;}  .carousel-inner {height: 100%;}  .carousel-item:nth-child(1) {background-image: url("http://localhost/occulus/assets/img/1.jpg");background-repeat: no-repeat;background-size: cover;}  .carousel-item:nth-child(2) {background-image: url("http://localhost/occulus/assets/img/2.png");background-repeat: no-repeat;background-size: cover;}  .carousel-item:nth-child(3) {background-image: url("http://localhost/occulus/assets/img/5.jpg");background-repeat: no-repeat;background-size: cover;}  .flex-center {color: #fff;}  @media (min-width: 776px) {  .carousel .view ul li {display: inline;}  .carousel .view .full-bg-img ul li .flex-item {margin-bottom: 1.5rem;}  }
+        html, body, .view {
+            height: 100%;
+        }
+
+        .navbar {
+            background-color: transparent;
+        }
+
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+
+        .top-nav-collapse {
+            background-color: #0A6A60;
+        }
+
+        footer.page-footer {
+            background-color: #2F968B;
+            margin-top: 0;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #0A6A60;
+            }
+        }
+
+        .carousel, .carousel-item, .carousel .active {
+            height: 100%;
+        }
+
+        .carousel-inner {
+            height: 100%;
+        }
+
+        .carousel-item:nth-child(1) {
+            background-image: url("http://localhost/occulus/assets/img/1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .carousel-item:nth-child(2) {
+            background-image: url("http://localhost/occulus/assets/img/2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .carousel-item:nth-child(3) {
+            background-image: url("http://localhost/occulus/assets/img/5.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .flex-center {
+            color: #fff;
+        }
+
+        @media (min-width: 776px) {
+            .carousel .view ul li {
+                display: inline;
+            }
+
+            .carousel .view .full-bg-img ul li .flex-item {
+                margin-bottom: 1.5rem;
+            }
+        }
     </style>
 </head>
 
@@ -32,23 +99,17 @@
         <!--Collapse content-->
         <div class="collapse navbar-toggleable-xs" id="collapseEx">
             <!--Navbar Brand-->
-            <a class="navbar-brand" href="http://localhost/occulus/" target="_blank">
+            <a class="navbar-brand" href="http://localhost/occulus/">
                 <img width="50px" class="img-responsive img-fluid" src="http://localhost/occulus/favicon.png"
                      alt="Favicon">
             </a>
             <!--Links-->
             <ul class="nav navbar-nav smooth-scroll">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#carousel-example-1">Accueil <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="http://localhost/occulus/">Accueil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#who">Qui sommes-nous</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#why">Que faisons-nous</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">A Propos</a>
+                    <a class="nav-link" href="http://localhost/occulus/download.html">Télécharger</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav nav-flex-icons">
@@ -85,19 +146,15 @@
             <!--Mask-->
             <div class="view hm-black-light">
                 <div class="full-bg-img flex-center">
-                    <ul class="animated fadeInUp col-md-12">
+                    <ul class="animated fadeInUpBig col-md-12">
                         <li>
-                            <h1 class="h1-responsive flex-item">Material Design for Bootstrap 4</h1>
+                            <h1 class="h1-responsive flex-item">OCCULUS APP</h1>
                         <li>
-                            <p class="flex-item">The most powerful and free UI KIT for Bootstrap</p>
+                            <p class="flex-item">Une app pour la gestion de votre commerce</p>
                         </li>
                         <li>
-                            <a target="_blank" href="../../../../../getting-started/index.html"
-                               class="btn btn-primary btn-lg flex-item">Sign up!</a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="../../../../../material-design-for-bootstrap/index.html"
-                               class="btn btn-default btn-lg flex-item">Learn more</a>
+                            <a target="_blank" href="#"
+                               class="btn btn-primary btn-lg flex-item">Télécharger</a>
                         </li>
                     </ul>
                 </div>
@@ -111,16 +168,17 @@
             <!--Mask-->
             <div class="view hm-black-light">
                 <div class="full-bg-img flex-center">
-                    <ul class="animated fadeInUp col-md-12">
+                    <ul class="animated fadeInLeftBig col-md-12">
                         <li>
-                            <h1 class="h1-responsive">Lots of tutorials at your disposal</h1>
+                            <h1 class="h1-responsive">BUSINESS INTELLIGENCE</h1>
                         </li>
                         <li>
-                            <p>And all of them are FREE!</p>
+                            <p>Une <b>BI</b> intégrer pourr vous permettre de prendre facilement et rapidement des
+                                décisions</p>
                         </li>
                         <li>
-                            <a target="_blank" href="../../../../../bootstrap-tutorial/index.html"
-                               class="btn btn-primary btn-lg">Start learning</a>
+                            <a target="_blank" href="#"
+                               class="btn btn-primary btn-lg">En savoir plus</a>
                         </li>
                     </ul>
                 </div>
@@ -134,15 +192,16 @@
             <!--Mask-->
             <div class="view hm-black-light">
                 <div class="full-bg-img flex-center">
-                    <ul class="animated fadeInUp col-md-12">
+                    <ul class="animated fadeInRightBig col-md-12">
                         <li>
-                            <h1 class="h1-responsive">Visit our support forum</h1></li>
-                        <li>
-                            <p>Our community can help you with any question</p>
+                            <h1 class="h1-responsive">ESSAIE GRATUIT</h1>
                         </li>
                         <li>
-                            <a target="_blank" href="../../../../../forums/forum/support/index.html"
-                               class="btn btn-default btn-lg">Support forum</a>
+                            <p>Demandez une démo en ligne 24h/24 7j/7</p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#"
+                               class="btn btn-default btn-lg">Voir comment</a>
                         </li>
                     </ul>
                 </div>
@@ -672,7 +731,7 @@
 
             <!--First column-->
             <div class="col-md-3 offset-md-1">
-                <h5 class="title">ABOUT MATERIAL DESIGN</h5>
+                <h5 class="title">OCCULUS</h5>
                 <p>Material Design (codenamed Quantum Paper) is a design language developed by Google. </p>
 
                 <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS,
